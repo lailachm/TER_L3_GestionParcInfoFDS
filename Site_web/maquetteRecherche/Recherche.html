@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Recherche </title>
+<meta charset = "utf-8">
+<style>
+      table, th, td {
+      padding: 10px;
+      border: 1px solid black;
+      border-collapse: collapse;
+      }
+
+    </style>
+</head>
+
+
+<body style= "padding-left: 50px; padding-right: 50px">
+  <div>
+    <img src="logo.png" alt="" />
+  <div style="float:right">  
+    <a href="page2.htm"><img src="logoCompte.png" style="width: 50px;" alt="" /></a>
+  </div>
+
+<hr color="black">  
+
+
+<table>
+    <tr>
+        <td style="text-align: center; width: 400px;">Recherche</td>
+        <td style="text-align: center; width: 400px;">Ajouter un ordinateur</td>
+        <td style="text-align: center; width: 400px;">Liste d'ordinateur à renouveler</td>
+    </tr>
+</table>
+<hr color="black">
+
+<br/>
+
+
+
+
+
+
+
+
+
+<center><div style="width: 600px;  padding-top:10px; padding-bottom:10px;border: 3px solid #A0A0A0; text-align: center;background: #C0C0C0; "> <I><B>Recherhe</B></B></div></center>
+<center>[ne remplissez que ce qui est nécessaire à votre recherche]</center>
+
+<br/>
+<br/>
+
+
+
+<label style="padding-bottom : 5px; padding-top : 5px;" for="name">Numéro de série:</label>
+<input placeholder="ex : 8D9VJX2" type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+<label for="name">Numéro de salle:</label>
+<input placeholder="ex : 16.03" type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+<label for="name">Numéro de bâtiment:</label>
+<input placeholder="ex : 16.03" type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+<label for="name">Date :</label>
+<input type="date" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+
+
+<br/>
+<br/>
+
+
+<div style="float:left;">
+<div style="float:left">
+<form method="post" action="ton_action">
+   <p>
+       Garantie :<br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">Sous 
+       garantie</label><br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">Hors  
+       garantie</label><br />
+ 
+   </p>
+</form>
+</div>
+
+<div style="float:right; padding-left: 300px; ">
+<form method="post" action="ton_action">
+   <p>
+       Etat :<br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">En 
+       panne </label><br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom"> 
+       Fonctionnel</label><br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">En 
+       réparation</label><br />
+   </p>
+</form>
+
+<br/>
+<br/>
+<input style= "padding-left: 50px; padding-right : 50px;" type="button" value="Rechercher"> 
+
+
+</div>
+</div>
+
+
+<div style="float:right;">
+<form method="post" action="ton_action">
+   <p>
+       Inventaire :<br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">Dans 
+       inventaire UM </label><br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">Hors 
+       inventaire UM dans FDS</label><br />
+       <input type="checkbox" name="ton_nom" id="ton_nom" /> <label for="ton_nom">Hors 
+       inventaire UM </label><br />
+   </p>
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+Modèle,Type,Fabricant,"N° série","N° campus","N° bâtiment","N° niveau","N° salle","N° Immobilisation","N° Inventaire","Détails sortie","Date de sortie","Nom Responsable de l'ordinateur","Prénom Responsable de l'ordinateur","Téléphone Responsable de l'ordinateur","Mail Responsable de l'ordinateur"
+Optiplex,Workstation,Dell,11AZ45ER,01,6,00,6.02,NULL,NULL,NULL,"2020-04-30 13:09:27",Rolland,Marc,754788911,Marc.Rolland@umontpellier.fr
+Optiplex,Workstation,Dell,AZ12FG56,01,6,00,6.03,NULL,NULL,NULL,"2020-04-30 13:11:13",Gall-Borut,Pascale,777072536,Pascale.Gall-Borut@umontpellier.fr

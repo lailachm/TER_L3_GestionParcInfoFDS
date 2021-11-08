@@ -1,0 +1,319 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+body {
+	padding-right: 50px; padding-left: 20px;
+}
+
+table {
+	border: 1px solid #333;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #333;
+}
+
+th {
+	border: 1px solid #333;
+}
+.div_global {
+background-color: gainsboro;
+padding-left: 20px;
+padding-right: 20px;
+max-height:550px;
+overflow: auto;
+
+}
+
+/***** INDEX *****/
+#container_index{
+	background-color: gainsboro;
+	position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 300px;
+    margin-left: -250px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -150px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
+#h1_index{
+	text-align: center;
+}
+
+#titre{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#champ_index{
+	padding-left: 30px;
+}
+/***** FIN INDEX *****/
+
+
+/***** HEADER *****/
+.logo {
+	width:150px; height:150px; float: left;
+	padding-bottom: 100px;
+	padding-top: 30px;
+	position: fixed;
+	padding-left: 55px;
+}
+
+.bttn_panier {
+	float: right; padding-right: 4px; margin-top: 90px;
+}
+
+.bttn_recherche {
+	float: right; padding-right: 40px; margin-top: 90px;
+}
+
+.h1_global {
+	color:crimson; text-align:center; padding-top:45px; padding-left: 100px;
+}
+/***** FIN HEADER *****/
+
+
+/***** MENU *****/
+#menu {
+	position: fixed;
+	margin-top: 210px;
+	padding-left: 0px;
+	width: 15%;
+	float: left;
+	background-color: gainsboro;
+}
+
+.global .corps_global {
+	margin-left:17%  
+}
+
+#menu_li {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border: 1px solid #600 ;
+	margin-bottom: 1px ;
+	list-style: none;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#menu_div {
+	position: fixed;
+}
+
+#bouton_menu {
+	text-decoration: none;
+}
+
+.clique{
+	background-color: white;
+}
+/*------------------*/
+#menu_2 {
+	position: fixed;
+	margin-top: 26px;
+	padding-left: 0px;
+	width: 15%;
+	float: left;
+	background-color: gainsboro;
+}
+#menu_li_2 {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border: 1px solid #600 ;
+	margin-bottom: 1px ;
+	list-style: none;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+#bouton_menu_2 {
+	text-decoration: none;
+}
+
+.clique_2{
+	background-color: white;
+}
+
+#titre_menu_2{
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	border: 0px;
+	list-style: none;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+#bttn_deco {
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	border: 0px;
+	list-style: none;
+	font-size: 16px;
+	padding-top: 40px;
+}
+/***** FIN MENU *****/
+
+
+/***** CORPS GLOBAL(commun à toutes les pages) *****/
+.global {
+	width: 100%;
+}
+
+.corps_global {
+	padding-top: 90px;
+}
+
+
+
+.h2_global {
+	color: indianred; padding-top: 10px;
+}
+
+.h3_global {
+	color: indianred;
+}
+/***** FIN CORPS GLOBAL *****/
+
+
+/***** AJOUTER DES ORDIS *****/
+#label_inventaire {
+	font-weight: bold;
+	padding-left: 20px;
+}
+/***** FIN AJOUTER DES ORDIS *****/
+
+
+/***** MESSAGE D'ALERTE *****/
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: gainsboro; /* Red */
+  color: black;
+  margin-bottom: 15px;
+  font-weight: bold;
+  width: 60%;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+} 
+/***** FIN MESSAGE D'ALERTE *****/
+
+
+/***** FICHE INVENTAIRE *****/
+#table_hist{
+	font-size: 16px;
+	display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-width:0px;
+}
+
+#cell_hist{
+	padding: 4px;
+}
+/***** FIN FICHE INVENTAIRE *****/
+
+
+/***** RECHERCHE *****/
+#msg_recherche{
+	width: 600px;  
+	padding-top:10px; 
+	padding-bottom:10px;
+	border: 3px solid #A0A0A0; 
+	text-align: center;
+	background: #C0C0C0; 
+}
+
+.bloc-Bandeau,.bloc-Pied{
+	height:100px;
+}
+
+.bloc-Gauche{
+	width: 33%;
+	height:130px;
+
+}
+
+.bloc-Fixe{
+	width: 34%;
+	height:130px;
+}
+
+.bloc-Droit{
+	width: 33%;
+	height:130px;
+}
+
+.box{
+	display:flex;
+}
+
+#label_recherche{
+	padding-bottom : 5px; 
+	padding-top : 5px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+#select_recherche{
+	padding-left: 20px;
+}
+/***** FIN RECHERCHE *****/
+
+
+/***** MODIF INVENTAIRE *****/
+#h3_modif_inv{
+	margin-left: 20px;
+	color: #954242;
+}
+
+#annuler_modif_inv{
+	margin-left: 90px;
+}
+/***** FIN MODIF INVENTAIRE *****/
+
+
+/***** SORTIE INVENTAIRE UM *****/
+#textarea_sortieUM{
+	margin-left: 20px;
+}
+
+#annuler_sortie_UM{
+	margin-left: 90px;
+}
+/***** FIN SORTIE INVENTAIRE UM *****/
+
+.popover
+{
+	width: 100%;
+	max-width: 800px;
+}
+

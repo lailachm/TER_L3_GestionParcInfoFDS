@@ -1,0 +1,50 @@
+body {
+	padding-right: 50px; padding-left: 50px;
+}
+
+table {
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #333;
+}
+
+th {
+	border: 1px solid #333;
+}
+
+.label_inventaire {
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.logo {
+	width:150px; height:150px; float: left;
+}
+
+.bttn_accueil {
+	float: right; padding-right: 50px; padding-top: 50px;
+}
+
+.h1_inventaire {
+	color:crimson; text-align:center; padding-top:45px;
+}
+
+.corps_inventaire {
+	padding-top: 90px;
+}
+
+.div_inventaire {
+	background-color: gainsboro; padding-left: 20px; padding-right: 20px;
+}
+
+.h2_inventaire {
+	color: indianred; padding-top: 10px;
+}
+
+.h3_inventaire {
+	color: indianred;
+}
+
